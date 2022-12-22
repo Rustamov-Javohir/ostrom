@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -69,11 +69,46 @@
     <aside class="site-aside">
         <div class="container">
             <div class="site-aside__wrapper">
-                
+                <div class="site-aside__start row">
+                    <form>
+                        <select class="site-aside__select" name="programming" id="programming">
+                            <option value="dasturlash">Dasturlash</option>
+                            <option value="design">Design</option>
+                            <option value="smm">Smm</option>
+                        </select>
+                        <select class="site-aside__select" name="programming_type" id="programming">
+                            <option value="web">Web dasturlash</option>
+                            <option value="3dmax">3D Max</option>
+                            <option value="social-course">Smm</option>
+                        </select>
+                    </form>
+                    <a class="site-aside__link" href="#">
+                        <span class="site-aside__link-rect"></span>
+                        160 ta kurs topildi
+                    </a>
+                </div>
+                <div class="site-aside__end">
+                    <form class="row">
+                        <fieldset>
+                            <legend>Murakkablik darajasi</legend>
+                            <input class="site-aside__end-checkbox" type="checkbox">
+                            <input class="site-aside__end-checkbox" type="checkbox">
+                            <input class="site-aside__end-checkbox" type="checkbox">
+                            <input class="site-aside__end-checkbox" type="checkbox">
+                            <div class="site-aside__end-click">
+                                <button class="click-button" type="button">
+                                    <span class="click-center-button"></span>
+                                </button>
+                            </div>
+                        </fieldset>
+                        <div class="site-aside__end-view"></div>
+                    </form>
+                </div>
             </div>
         </div>
     </aside>
     <!-- ASIDE END -->
+    
     <script src="./js/main.js"></script>
 </body>
 
